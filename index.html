@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 days of code - assignment 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="banner">
+            <img src="images/banner.png" alt="">
+           <div class="banner-text"> 
+            <h1 class="banner-header">About Us</h1>
+            <p class="banner-description">From preschool to pre-tertiary, our students enjoy fun, interactive and relevant lessons and are empowered to think beyond the confines of the classroom.</p>
+            <button class="btn">See More</button>
+        </div>
+        </div>
+    </header>
+    <main>
+         <!-- work section starts here  -->
+         <section id="blog-about" class="section-center">
+            <h2 class="section-heading text-white">Why it's works </h2>
+            <div class="card-container">
+                <div class="card">
+                    <img class="card-icon" src="images/icon1.png" alt="">
+                    <h3 class="card-header"> Personalized learning </h3>
+                    <p class="card-description">
+                        Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img class="card-icon" src="images/icon2.png" alt="">
+                    <h3 class="card-header"> Trusted content </h3>
+                    <p class="card-description">
+                        Created by experts, library of trusted practice and lessons covers math, science, and more. Always free for learners and teachers.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img class="card-icon" src="images/icon3.png" alt="">
+                    <h3 class="card-header">Tools to empower teachers</h3>
+                    <p class="card-description">
+                        Teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- about-us section ends here -->
+
+          <!-- contact section starts here -->
+          <section id="contact-section" class="section-center">
+            <h2 class="section-heading blog-posts-heading text-white">Get in touch with us</h2>
+        <div class="contact-map">
+            <div class="contact">
+                <form action="" id="contact-form">
+                    <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required autocomplete="name">
+                    </div>
+    
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required autocomplete="email">
+                        </div>
+    
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+    
+                    <div class="form-control form-btn-field">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                    </div>
+                        
+                </form>
+               </div>
+               <div class="map">
+                    <img src="images/map.png" alt="">
+               </div>
+        </div>
+        </section>
+        <!-- contact section ends here -->
+        
+    </main>
+</body>
+</html>
